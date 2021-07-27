@@ -60,6 +60,10 @@ export default class Card extends Component{
     }
     editfn=(index)=>{
         this.setState({editindex:index});
+        this.state.value.splice(0,1,this.state.cards[index][0]);
+        this.state.value.splice(1,1,this.state.cards[index][1]);
+        this.state.value.splice(2,1,this.state.cards[index][2]);
+        this.state.value.splice(3,1,this.state.cards[index][3]);
         document.getElementById("Uname").value=this.state.cards[index][0];
         document.getElementById("Cname").value=this.state.cards[index][1];
         document.getElementById("Expense").value=this.state.cards[index][2];
@@ -86,10 +90,6 @@ export default class Card extends Component{
         console.log(a);
         
         this.state.cards.splice(this.state.editindex,1 ,a);
-        for(var i=0;i<this.state.cards.length;i++){
-            console.log("hey")
-            console.log(this.state.cards[i]);
-        }
         
         document.getElementById("Uname").value="";
         document.getElementById("Cname").value="";
