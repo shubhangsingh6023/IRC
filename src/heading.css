@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: border-box;
+}
+.heading{
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: rgb(8, 43, 197);
+    
+}
+.imglogo{
+    margin-left: 10rem;
+    margin-top: 0.8rem;
+    width: fit-content;
+    height: fit-content;
+}
+.dots{
+    height: 4.9rem;
+    margin-right: 1rem;
+    filter: invert(100%);
+}
+.kgplogo{
+    height: 4.9rem;
+    padding-right: 1rem;
+    border-right:2px solid rgb(235, 232, 232)
+}
+.IRC{
+   float: right;
+   margin-left: 1rem;
+   font-size: 1.5rem;
+   color: white;
+ 
+
+}
+.IRC2{
+    color: rgb(65, 102, 87);
+}
+.clear{
+    clear:both;
+}
+.ul{
+    float: right;
+    margin-right: 5rem;
+    width: fit-content;
+    height: fit-content;
+    margin-top: -3.8rem;
+    
+}
+.ul li{
+    color: gray;
+    margin-right: 2rem;
+    list-style: none;
+    float: left;
+    font-size: 1.7rem;
+}
+.universities{
+    color: white;
+    font-weight: 450;
+}
