@@ -18,7 +18,7 @@ export const Addcard =(props)=>{
                     <input id="Expense" type="text"  onChange={props.setExpense} placeholder="eg:$20"/>
                     </li>
                     <li><label htmlFor="Deadline">Deadline</label><br/>
-                    <input id="Deadline" type="text"  onChange={props.setDeadline} placeholder="eg:3rd May ,2021"/>
+                    <input id="Deadline" type="date"  onChange={props.setDeadline} placeholder="eg:3rd May ,2021"/>
                     </li><br/>
                     <input  type="button" className="btn" onClick={props.setCount} value="Submit"></input>
                 </ul>
