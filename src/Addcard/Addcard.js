@@ -15,7 +15,7 @@ export const Addcard =(props)=>{
                     <input id="Cname" type="text"  onChange={props.setCname} placeholder="eg:India"/>
                     </li>
                     <li><label htmlFor="Expense">Expenses</label><br/>
-                    <input id="Expense" type="text"  onChange={props.setExpense} placeholder="eg:$20"/>
+                    <input id="Expense" type="number" title="write in dollars" onChange={props.setExpense} placeholder="eg:20"/>
                     </li>
                     <li><label htmlFor="Deadline">Deadline</label><br/>
                     <input id="Deadline" type="date"  onChange={props.setDeadline} placeholder="eg:3rd May ,2021"/>
